@@ -99,6 +99,7 @@ Matrix<T>& Matrix<T>::operator-= (Matrix<T>& matr)
     return *this;
 }
 
+
 template<typename T>
 Matrix<T> operator+(Matrix<T>& matr1, Matrix<T>& matr2)
 {
